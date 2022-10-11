@@ -1,0 +1,310 @@
+body {
+
+    background-color: rgb(213, 218, 218);
+    font-family: GingerRegular;
+    margin: 0;
+    /* padding: 1rem; */
+
+}
+
+@font-face {
+    font-family: GingerBold;
+    src: url('f37_ginger_bold/F37\ Ginger\ Bold.otf');
+}
+
+@font-face {
+    font-family: GingerRegular;
+    src: url('f37_ginger_regular/F37\ Ginger\ Regular.ttf');
+}
+
+.container {
+
+    padding: 0 10% 7%;
+
+}
+
+.back-to-courses-link {
+
+    color: #212121;
+    display: flex;
+    font-size: 0.6rem;
+    text-decoration: none;
+
+}
+
+.back-icon {
+
+    font-size: 0.4rem;
+    height: 1rem;
+    width: 1rem; 
+    margin-right:0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.heading {
+
+    color: #1544c0;
+    font-family: GingerBold;
+    font-weight: 100;
+    font-size: 8vw;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+
+}
+
+.sub-heading {
+
+    color: #1544c0;
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.sub-text {
+
+    color: #212121;
+    font-size: 1.1rem;
+    font-weight: normal;
+    letter-spacing: -0.05rem;
+    line-height: 1.5rem;
+    margin: 0;
+    margin-bottom: 0.2rem;
+
+}
+
+.sub-paragraph {
+    
+    color: rgba(33, 33, 33, 0.9);
+    font-size: 0.9rem;
+    letter-spacing: -0.02em;
+    line-height: 1.5rem;
+    max-width: 580px;
+    margin: 0.5rem;
+    margin-left: 0;
+
+}
+
+.inner {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+
+    cursor: pointer;
+    color: #fff;
+    background-color: #212121;
+    border: 1px solid #fff;
+    border-radius: 9%;
+    font-size: 12px;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+
+}
+
+button:hover {
+
+    color: #1544c0;
+    background-color: rgb(163, 155, 155);
+
+}
+
+.footer {
+
+    background-color: #fff;
+    padding: 0.5rem 5%;
+    text-align: center;
+
+}
+
+.footer-heading {
+
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 0.6;
+
+}
+
+.fa-regular,
+.fa-brands {
+
+    color: #000;
+    font-size: medium;
+    margin: 0 0.3rem;
+
+    }
+.fa-regular:hover,
+.fa-brands:hover {
+
+    color: palevioletred;
+
+    }
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+    
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 12% 6%;
+    
+    }
+
+    .back-to-courses-link {
+
+        color: #212121;
+        display: flex;
+        font-size: 0.8rem;
+        text-decoration: none;
+    
+    }
+    
+    .back-icon {
+    
+        font-size: 0.8rem;
+        height: 1rem;
+        width: 1rem; 
+        margin-right:0.5rem;
+    
+    }
+    
+    .main {
+
+        width: 50%;
+    
+    }
+    
+    
+    .heading {
+    
+        color: #1544c0;
+        font-family: GingerBold;
+        font-weight: 100;
+        font-size: 5vw;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    .sub-heading {
+    
+        color: #1544c0;
+        font-size: 0.7rem;
+        font-weight: 200;
+        margin-bottom: 0;
+    
+    
+    }
+    
+    .sub-text {
+    
+        color: #212121;
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: -0.05rem;
+        line-height: 2rem;
+        margin: 0;
+        margin-bottom: 0.4rem;
+    
+    }
+    
+    .sub-paragraph {
+    
+        color: rgba(33, 33, 33, 0.9);
+        font-size: 1rem;
+        letter-spacing: -0.02em;
+        line-height: 2rem;
+        max-width: 580px;
+        margin: 0.5rem;
+        margin-left: 0;
+    
+    }
+    
+
+    .inner {
+
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    button {
+
+        cursor: pointer;
+        color: #fff;
+        background-color: #212121;
+        border: 1px solid #fff;
+        border-radius: 9.9%;
+        font-size: 15px;
+        padding: 0.7rem;
+
+    }
+
+    button:hover {
+
+        color: #1544c0;
+        background-color: rgb(163, 155, 155);
+
+    }
+
+
+
+    .other-container {
+
+        padding-top: 14%;
+        padding-left: 6%;
+        width: 50%;
+
+    }
+
+    .footer {
+
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 4rem;
+
+    }
+
+    .footer-heading {
+
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: normal;
+        opacity: 1;
+
+    }
+
+    .socials {
+
+        cursor: pointer;
+        padding: 0.5rem 0;
+
+    }
+
+    .fa-regular,
+    .fa-brands {
+
+        color: #000;
+        font-size: larger;
+        margin: 0 0.3rem;
+
+    }
+    .fa-regular:hover,
+    .fa-brands:hover {
+
+        color: palevioletred;
+
+    }
+    
+
+}
+
+
+
