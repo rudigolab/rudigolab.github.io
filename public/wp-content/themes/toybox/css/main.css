@@ -3846,32 +3846,60 @@ section.profile-section[data-active="off"] .profile-figure div {
       left: 0;
       width: 100%;
       height: 300px; }
-    section.profile-section .mob-jon {
-      background: url("../img/figures/mob/tinified/godfrey-front1.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-web {
+      background: url("../img/figures/tinified/otp.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-bweb {
+      background: url("../img/figures/tinified/back.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-mobile {
+      background: url("../img/figures/tinified/app.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-product {
+      background: url("../img/figures/tinified/package.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-design {
+      background: url("../img/figures/tinified/design.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-data {
+      background: url("../img/figures/tinified/data science.png") no-repeat center bottom/380px; }
     section.profile-section .mob-leigh {
-      background: url("../img/figures/mob/tinified/godfrey-front1.png") no-repeat center bottom/380px; } }
+      background: url("../img/figures/mob/tinified/godfrey-front1.png") no-repeat center bottom/380px; } 
+    section.profile-section .mob-jon-helixgade {
+      background: url("../img/figures/tinified/helixgade-logo.png") no-repeat center bottom/380px; }
+    section.profile-section .mob-jon-gdgphc {
+      background: url("../img/figures/tinified/gdgphc.png") no-repeat center bottom/380px; }
+      }
 
 .jon-profile-figure div:nth-child(1) {
-  background: url("../img/figures/tinified/jon-exploded-face-on-1.png") no-repeat center center/100%; }
-.jon-profile-figure div:nth-child(2) {
-  background: url("../img/figures/tinified/jon-exploded-face-on-2.png") no-repeat center center/100%; }
-.jon-profile-figure div:nth-child(3) {
-  background: url("../img/figures/tinified/jon-exploded-face-on-3.png") no-repeat center center/100%; }
-.jon-profile-figure div:nth-child(4) {
-  background: url("../img/figures/tinified/jon-exploded-face-on-4.png") no-repeat center center/100%; }
+  background: url("../img/figures/tinified/otp.png") no-repeat center center/100%; }
+
+.jon-profile-figure-bweb div:nth-child(1) {
+  background: url("../img/figures/tinified/back.png") no-repeat center center/100%; }
+
+.jon-profile-figure-mobile div:nth-child(1) {
+  background: url("../img/figures/tinified/mobile.png") no-repeat center center/100%; }
+
+.jon-profile-figure-data div:nth-child(1) {
+  background: url("../img/figures/tinified/data science.png") no-repeat center center/100%; }
+
+.jon-profile-figure-product div:nth-child(1) {
+  background: url("../img/figures/tinified/package.png") no-repeat center center/100%; }
+
+.jon-profile-figure-helixgade div:nth-child(1) {
+  background: url("../img/figures/tinified/helixgade-logo.png") no-repeat center center/100%; }
+
+.jon-profile-figure-gdgphc div:nth-child(1) {
+  background: url("../img/figures/tinified/gdgphc.png") no-repeat center center/100%; }
+
+
+
 
   .jon-profile-web div:nth-child(1) {
-    background: url("../img/ui/productdesign.png") no-repeat center center/100%; }
+    background: url("../img/figures/tinified/design.png") no-repeat center center/100%; }
   .jon-profile-bweb div:nth-child(1) {
-    background: url("../img/ui/productdesign.png") no-repeat center center/100%; }
+    background: url("public/wp-content/themes/toybox/img/figures/tinified/designer.png") no-repeat center center/100%; }
   .jon-profile-design div:nth-child(1) {
-    background: url("../img/ui/productdesign.png") no-repeat center center/100%; }
+    background: url("public/wp-content/themes/toybox/img/figures/tinified/designer.png") no-repeat center center/100%; }
   .jon-profile-data div:nth-child(1) {
-    background: url("../img/ui/productdesign.png") no-repeat center center/100%; }
-  .jon-profile-pdesign div:nth-child(1) {
-    background: url("../img/figures/tinified/talent.png") no-repeat center center/100%; }
+    background: url("public/wp-content/themes/toybox/img/figures/tinified/designer.png") no-repeat center center/100%; }
   .jon-profile-mobile div:nth-child(1) {
-      background: url("../img/ui/productdesign.png") no-repeat center center/100%; }
+      background: url("../img/figures/tinified/app.png") no-repeat center center/100%; }
   
   
 .leigh-profile-figure div:nth-child(1) {
